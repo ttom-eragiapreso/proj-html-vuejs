@@ -17,14 +17,15 @@ import {
   faTruckMonster, 
   faBoxes, 
   faClock,
+  faEnvelope,
   faTruck  } from '@fortawesome/free-solid-svg-icons'
 
-import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-import { faEnvelope, faUser } from '@fortawesome/free-regular-svg-icons'
+import { faUser } from '@fortawesome/free-regular-svg-icons'
 
 /* add icons to the library */
-library.add( faFacebook, faLinkedin, faTwitter, faPhone, faTruckRampBox, faTemperatureLow, faBoxesStacked, faLocationDot, faTruckMonster, faBoxes, faTruck, faEnvelope, faClock, faUser)
+library.add( faFacebookF, faLinkedin, faTwitter, faPhone, faTruckRampBox, faTemperatureLow, faBoxesStacked, faLocationDot, faTruckMonster, faBoxes, faTruck, faEnvelope, faClock, faUser)
 
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon)

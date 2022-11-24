@@ -11,7 +11,7 @@ export const store = reactive({
       {
         name: 'Facebook',
         href: '#',
-        icon: 'fa-brands fa-facebook'
+        icon: 'fa-brands fa-facebook-f'
       },
       {
         name: 'Twitter',
