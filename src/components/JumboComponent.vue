@@ -5,16 +5,27 @@ export default {
 </script>
 
 <template>
-  <div class="container">
-    <h1>Jumbo</h1>
+
+  <div class="em-container">
+
+    <div class="container">
+      
+
+    </div>
 
   </div>
+
 </template>
 
 <style lang="scss" scoped>
 @use '../styles/partials/mixin' as *;
 @use '../styles/partials/variables' as *;
 
-
+.em-container{
+  height: calc(100vh - $header-height);
+  background-image: url('../assets/img/bg-9.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 </style>
