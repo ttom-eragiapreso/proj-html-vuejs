@@ -28,11 +28,13 @@ export default {
           v-for="(link, index) in store.businessInfo.navbarLinks"
           :key="index"
           >
-          <h2 class="pe-3 my-auto">{{link.title}}</h2>
+          <h2 class="pe-3 my-auto">
+            <a href="#">{{link.title}}</a> 
+          </h2>
           </div>
 
-          <div class="get-in-touch">
-            <font-awesome-icon icon="fa-regular fa-user"/>
+          <div class="get-in-touch d-flex align-items-center">
+            <font-awesome-icon icon="fa-regular fa-user" class="fs-4 px-3" />
             <button class="btn btn-primary">GET IN TOUCH</button>
           </div>
         </div>

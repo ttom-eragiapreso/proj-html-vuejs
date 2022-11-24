@@ -26,7 +26,7 @@ export default {
     </div>
 
     <div class="email px-3">
-      <font-awesome-icon icon="fa-solid fa-envelope"/>
+      <font-awesome-icon icon="fa-solid fa-envelope" class="px-2"/>
       <span>{{store.businessInfo.emailAddress}}</span>
     </div>
 

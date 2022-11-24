@@ -1,3 +1,4 @@
+@import '../node_modules/bootstrap/scss/functions';
 
 
 @mixin pillLogo($color) {
@@ -7,6 +8,6 @@
     padding-right: 5px;
     border-top-left-radius: 99px;
     border-bottom-left-radius: 99px;
-    color: rgba(255, 255, 255, 0.844);
+    color: tint-color($color, 5%);
     margin-right: 5px;
 }
