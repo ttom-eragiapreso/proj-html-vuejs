@@ -1,8 +1,8 @@
 // Color palette based on primary color
 
-$primary-color: #038384;
+$primary-color: rgb(5, 130, 132);
 $secondary-color: lighten($primary-color, 15%);
-$muted-color: darken($primary-color, 16%);
+$muted-color: darken($primary-color, 18%);
 
 // Sizes
 

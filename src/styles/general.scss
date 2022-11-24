@@ -1,4 +1,5 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss' ;
+@import '../styles/partials/variables' ;
 
 ul {
   list-style: none;
@@ -6,6 +7,10 @@ ul {
 
 a, li {
   text-decoration: none;
+}
+
+.btn-primary{
+  background-color: $primary-color;
 }
 
 

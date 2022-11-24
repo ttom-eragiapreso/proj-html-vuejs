@@ -1,0 +1,12 @@
+
+
+@mixin pillLogo($color) {
+    background-color: rgba($color, 0.3);
+    padding: 8px 0;
+    padding-left: 35px;
+    padding-right: 5px;
+    border-top-left-radius: 99px;
+    border-bottom-left-radius: 99px;
+    color: rgba(255, 255, 255, 0.844);
+    margin-right: 5px;
+}

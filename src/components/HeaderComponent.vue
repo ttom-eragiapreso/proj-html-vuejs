@@ -21,7 +21,7 @@ export default {
     </div>
 
     <div class="phone ms-auto px-3">
-      <font-awesome-icon icon="fa-solid fa-phone"/>
+      <font-awesome-icon icon="fa-solid fa-phone" class="px-2"/>
       <span>{{store.businessInfo.phoneNumber}}</span>
     </div>
 

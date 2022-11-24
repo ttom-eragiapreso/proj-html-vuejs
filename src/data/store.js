@@ -24,7 +24,7 @@ export const store = reactive({
         icon: 'fa-brands fa-linkedin'
       }
     ],
-    navbarLink: [
+    navbarLinks: [
       {
         title: 'HOME',
         href: '#'
