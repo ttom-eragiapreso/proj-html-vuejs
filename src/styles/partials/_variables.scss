@@ -1,2 +1,5 @@
+// Color palette based on primary color
+
 $primary-color: #038384;
-$secondary-color: lighten($primary-color, 70%)
+$secondary-color: lighten($primary-color, 15%);
+$muted-color: darken($primary-color, 10%)

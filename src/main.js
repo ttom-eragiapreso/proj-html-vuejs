@@ -8,9 +8,20 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faPhone, faTruckRampBox, faTemperatureLow, faBoxesStacked, faLocationDot, faTruckMonster, faBoxes, faTruck  } from '@fortawesome/free-solid-svg-icons'
+import { 
+  faPhone, 
+  faTruckRampBox, 
+  faTemperatureLow, 
+  faBoxesStacked, 
+  faLocationDot, 
+  faTruckMonster, 
+  faBoxes, 
+  faClock,
+  faTruck  } from '@fortawesome/free-solid-svg-icons'
+
 import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faClock, faUser } from '@fortawesome/free-regular-svg-icons'
+
+import { faEnvelope, faUser } from '@fortawesome/free-regular-svg-icons'
 
 /* add icons to the library */
 library.add( faFacebook, faLinkedin, faTwitter, faPhone, faTruckRampBox, faTemperatureLow, faBoxesStacked, faLocationDot, faTruckMonster, faBoxes, faTruck, faEnvelope, faClock, faUser)
