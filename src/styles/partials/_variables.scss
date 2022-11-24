@@ -4,8 +4,9 @@
 
 $primary-color: rgb(5, 130, 132);
 $secondary-color: tint-color($primary-color, 20%);
-$muted-color: darken($primary-color, 18%);
 $muted-color: shade-color($primary-color, 65%);
+
+$primary: $primary-color;
 
 // Sizes
 

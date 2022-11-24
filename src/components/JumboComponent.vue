@@ -13,7 +13,7 @@ export default {
 <template>
   <!-- Aggiungo un container per l'immagine per poi applicare il backdrop-filter -->
   <div class="background-img">
-
+    <!-- Container custom per avere l'immagine con width 100% -->
     <div class="em-container">
 
       <div class="container py-4 d-flex">
@@ -23,14 +23,14 @@ export default {
         </div>
 
         <div class="em-navbar d-flex align-items-center ms-auto">
-
+          <!-- Stampo i link dinamicamente in base a quanti ce ne sono nello store -->
           <div class="em-navbar-link"
           v-for="(link, index) in store.businessInfo.navbarLinks"
           :key="index"
           >
-          <h2 class="pe-3 my-auto">
-            <a href="#">{{link.title}}</a> 
-          </h2>
+            <h2 class="pe-3 my-auto">
+              <a href="#">{{link.title}}</a> 
+            </h2>
           </div>
 
           <div class="get-in-touch d-flex align-items-center">
@@ -61,7 +61,7 @@ export default {
 
 .em-container {
   height: calc(100vh - $header-height);
-  backdrop-filter: brightness(70%);
+  backdrop-filter: brightness(68%);
 }
 
 .logo {

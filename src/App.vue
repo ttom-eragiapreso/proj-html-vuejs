@@ -47,7 +47,6 @@ export default {
   <FooterTopComponentVue/>
   <FooterBottomComponentVue/>
 
-
 </template>
 
 <style lang="scss">

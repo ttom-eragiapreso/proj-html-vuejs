@@ -1,6 +1,7 @@
 import {reactive} from 'vue'
 
 export const store = reactive({
+  // Raccolgo tutte le info del business in un oggetto con diverse proprietà
   businessInfo: {
     name: 'Nexgen',
     openingDays: 'Mon - Sat',
