@@ -74,6 +74,24 @@ export const store = reactive({
         name: 'test',
         img: 'src/assets/img/certificate.png'
       }
+    ],
+    servicesDescription: 'With all of this expertise and capability comes an unrivalled commitment to customer service. We will work hard to understand your needs in order to develop a productive, long-term partnership.',
+    servicesCards: [
+      {
+        title: 'Technology',
+        description: "We are continually focused on developing technology solutions adapted to our client's needs.",
+        icon: 'fa-solid fa-truck-ramp-box'
+      },
+      {
+        title: 'Reefer Cargo',
+        description: "Regular and frequent monitoring from the receipt of the loaded container to final destination.",
+        icon: 'fa-solid fa-temperature-low'
+      },
+      {
+        title: 'Dry Cargo',
+        description: "We work with most types of dry cargo, from valuable cargo to the most dangerous requiring care",
+        icon: 'fa-solid fa-boxes-stacked'
+      },
     ]
   }
 })

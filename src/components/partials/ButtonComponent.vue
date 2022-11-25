@@ -10,7 +10,7 @@ export default {
 
 <template>
 
-  <button class="btn"
+  <button class="btn px-4"
   :class="[ isOutline? 'btn-outline-primary' : 'btn-primary']"
   >{{text}}</button>
   
@@ -23,6 +23,7 @@ export default {
 
 button {
   color: white;
+
 }
 
 </style>

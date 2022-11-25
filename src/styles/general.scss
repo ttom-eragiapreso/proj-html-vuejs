@@ -23,3 +23,10 @@ img {
   font-weight: bold;
 }
 
+.accent-text-negative {
+  background-color: shade-color($primary, 50%);
+  color: white;
+  padding: .3rem .3rem;
+  font-weight: bold;
+}
+
