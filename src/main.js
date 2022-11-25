@@ -22,10 +22,10 @@ import {
 
 import { faFacebookF, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-import { faUser } from '@fortawesome/free-regular-svg-icons'
+import { faUser, faGem } from '@fortawesome/free-regular-svg-icons'
 
 /* add icons to the library */
-library.add( faFacebookF, faLinkedin, faTwitter, faPhone, faTruckRampBox, faTemperatureLow, faBoxesStacked, faLocationDot, faTruckMonster, faBoxes, faTruck, faEnvelope, faClock, faUser)
+library.add( faFacebookF, faLinkedin, faTwitter, faPhone, faTruckRampBox, faTemperatureLow, faBoxesStacked, faLocationDot, faTruckMonster, faBoxes, faTruck, faEnvelope, faClock, faUser, faGem)
 
 createApp(App)
 .component('font-awesome-icon', FontAwesomeIcon)
