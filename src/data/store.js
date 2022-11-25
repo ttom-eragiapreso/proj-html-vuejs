@@ -46,6 +46,7 @@ export const store = reactive({
         title: 'TESTIMONIALS',
         href: '#'
       },
-    ]
+    ],
+    description: 'Fractional or exclusive road cargo transportation to all regions, with small, medium and large vehicles'
   }
 })

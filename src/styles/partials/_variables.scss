@@ -2,11 +2,14 @@
 
 // Color palette based on primary color
 
-$primary-color: rgb(5, 130, 132);
-$secondary-color: tint-color($primary-color, 20%);
-$muted-color: shade-color($primary-color, 65%);
+$blue-chill: #058284;
+$secondary-color: tint-color($blue-chill, 20%);
+$muted-color: shade-color($blue-chill, 65%);
 
-$primary: $primary-color;
+$primary: $blue-chill;
+
+$silver-sand: #bcbdbd;
+$secondary: $silver-sand;
 
 // Sizes
 

@@ -28,9 +28,9 @@ export default {
           v-for="(link, index) in store.businessInfo.navbarLinks"
           :key="index"
           >
-            <h2 class="pe-3 my-auto">
+            <h3 class="pe-3 my-auto">
               <a href="#">{{link.title}}</a> 
-            </h2>
+            </h3>
           </div>
 
           <div class="get-in-touch d-flex align-items-center">
@@ -38,6 +38,24 @@ export default {
             <button class="btn btn-primary">GET IN TOUCH</button>
           </div>
         </div>
+
+        
+      </div>
+
+      <div class="container mt-auto">
+        <div class="row">
+          <div class="col col-6">
+            <div class="cta p-3">
+              <span class="text-primary fs-5">LOGISTICS SERVICES</span>
+              <h1 class="fw-bold">CARGO TRANSPORT</h1>
+              <p class="text-secondary fs-4">{{store.businessInfo.description}}</p>
+              <button class="btn btn-primary">GET IN TOUCH</button>
+              <button class="btn btn-outline-primary text-white mx-3">READ MORE</button>
+            </div>
+         </div>
+          
+        </div>
+      
 
       </div>
     
@@ -61,7 +79,7 @@ export default {
 
 .em-container {
   height: calc(100vh - $header-height);
-  backdrop-filter: brightness(68%);
+  backdrop-filter: brightness(35%);
 }
 
 .logo {
@@ -70,6 +88,9 @@ export default {
   .nex{
     @include pillLogo($secondary-color);
   }
+}
+h1 {
+  font-size: 5rem;
 }
 
 </style>
