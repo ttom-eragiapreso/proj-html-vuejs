@@ -47,6 +47,33 @@ export const store = reactive({
         href: '#'
       },
     ],
-    description: 'Fractional or exclusive road cargo transportation to all regions, with small, medium and large vehicles'
+    description: 'Fractional or exclusive road cargo transportation to all regions, with small, medium and large vehicles',
+    vehicleTypes: [
+      {
+        type: 'Light',
+        description: 'Max Weight 1200KG',
+        img: 'src/assets/img/truck-1.png'
+      },
+      {
+        type: 'Medium',
+        description: 'Max Weight 6000KG',
+        img: 'src/assets/img/truck-1.png'
+      },
+      {
+        type: 'Heavy',
+        description: 'Max Weight 24000KG',
+        img: 'src/assets/img/truck-1.png'
+      },
+    ],
+    certifications: [
+      {
+        name: 'test',
+        img: 'src/assets/img/certificate.png'
+      },
+      {
+        name: 'test',
+        img: 'src/assets/img/certificate.png'
+      }
+    ]
   }
 })

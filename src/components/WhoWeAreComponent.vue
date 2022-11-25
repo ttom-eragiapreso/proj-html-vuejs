@@ -1,24 +1,31 @@
 <script>
+import SidebarComponentVue from './partials/SidebarComponent.vue';
 export default {
-  name: 'WhoWeAreComponent'
+  name: 'WhoWeAreComponent',
+  components: {
+    SidebarComponentVue
+  }
 }
 </script>
 
 <template>
   <div class="container">
     
-    <div class="who-we-are">
-      <h5 class="text-primary">WHO WE ARE</h5>
-    </div>
+    <div class="row">
 
-    <div class="info">
-      <div class="vehicle-types">
-
+      <div class="col col-9">
+        <div class="who-we-are">
+          <h5 class="text-primary">WHO WE ARE</h5>
+        </div>
       </div>
-      <div class="certifications">
-
+      
+      <div class="col col-3">
+        <SidebarComponentVue/>
       </div>
+
     </div>
+    
+
   </div>
 </template>
 
