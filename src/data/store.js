@@ -92,6 +92,51 @@ export const store = reactive({
         description: "We work with most types of dry cargo, from valuable cargo to the most dangerous requiring care",
         icon: 'fa-solid fa-boxes-stacked'
       },
+    ],
+    logisticsCards: [
+      {
+        number: "01",
+        title: 'Collection of information',
+        description: 'lorem ipsum dolor sit amet consectetur'
+      },
+      {
+        number: "02",
+        title: 'Service Invoice Sending',
+        description: 'lorem ipsum dolor sit amet consectetur'
+      },
+      {
+        number: "03",
+        title: 'Withdrawal of Cargo',
+        description: 'lorem ipsum dolor sit amet consectetur'
+      },
+      {
+        number: "04",
+        title: 'Transport Customer Order',
+        description: 'lorem ipsum dolor sit amet consectetur'
+      },
+      {
+        number: "05",
+        title: 'Successful Delivery',
+        description: 'lorem ipsum dolor sit amet consectetur'
+      },
+    ],
+    resultsCards: [
+      {
+        title: 'Certifications',
+        value: '128'
+      },
+      {
+        title: 'Employees',
+        value: '230'
+      },
+      {
+        title: 'Customers',
+        value: '517'
+      },
+      {
+        title: 'Countries Served',
+        value: '94'
+      },
     ]
   }
 })

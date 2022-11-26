@@ -3,8 +3,9 @@
 // Color palette based on primary color
 
 $blue-chill: #058284;
-$secondary-color: tint-color($blue-chill, 85%);
+$secondary-color: tint-color($blue-chill, 80%);
 $muted-color: shade-color($blue-chill, 65%);
+$bg-light: tint-color($blue-chill, 95%);
 
 $primary: $blue-chill;
 
