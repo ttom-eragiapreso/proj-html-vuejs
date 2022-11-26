@@ -153,6 +153,95 @@ export const store = reactive({
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nihil dolore placeat repellendus quae deleniti delectus. Ipsa nesciunt tempora quia quidem ducimus, molestias culpa cum.",
       },
 
+    ],
+    footerCards: [
+      {
+        title: 'About',
+        links: [
+          {
+            text: 'The Company',
+            href: '#'
+          },
+          {
+            text: 'Institutional',
+            href: '#'
+          },
+          {
+            text: 'Social & Events',
+            href: '#'
+          },
+          {
+            text: 'Innovation',
+            href: '#'
+          },
+          {
+            text: 'Environment',
+            href: '#'
+          },
+          {
+            text: 'Technology',
+            href: '#'
+          },
+        ]
+      },
+      {
+        title: 'Transport',
+        links: [
+          {
+            text: 'Industrialized',
+            href: '#'
+          },
+          {
+            text: 'Chemicals',
+            href: '#'
+          },
+          {
+            text: 'Packaged Liquids',
+            href: '#'
+          },
+          {
+            text: 'Construction',
+            href: '#'
+          },
+          {
+            text: 'Laminated Wood',
+            href: '#'
+          },
+          {
+            text: 'And others',
+            href: '#'
+          },
+        ]
+      },
+      {
+        title: 'Support',
+        links: [
+          {
+            text: 'Responsability',
+            href: '#'
+          },
+          {
+            text: 'Terms of Use',
+            href: '#'
+          },
+          {
+            text: 'About Cookies',
+            href: '#'
+          },
+          {
+            text: 'Privacy Policy',
+            href: '#'
+          },
+          {
+            text: 'Accessibility',
+            href: '#'
+          },
+          {
+            text: 'Information',
+            href: '#'
+          },
+        ]
+      },
     ]
   }
 })

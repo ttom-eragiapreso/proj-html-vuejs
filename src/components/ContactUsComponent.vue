@@ -2,6 +2,7 @@
 import {store} from '../data/store'
 import ButtonComponentVue from './partials/ButtonComponent.vue';
 import FormComponent from './partials/FormComponent.vue'
+import DetailsComponentVue from './DetailsComponent.vue';
 export default {
   name: 'ContactUsComponent',
   data(){
@@ -11,7 +12,8 @@ export default {
   },
   components: {
     ButtonComponentVue,
-    FormComponent
+    FormComponent,
+    DetailsComponentVue
   }
 }
 </script>
@@ -37,18 +39,7 @@ export default {
           <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, pariatur.</p>
           <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, pariatur.</p>
 
-          <div class="details d-flex align-items-center">
-            <font-awesome-icon icon="fa-solid fa-phone" class="circle text-primary"/>
-            <span class="text-primary ps-3">{{store.businessInfo.phoneNumber}}</span>
-          </div>
-          <div class="details d-flex align-items-center">
-            <font-awesome-icon icon="fa-solid fa-envelope" class="circle text-primary"/>
-            <span class="text-primary ps-3">{{store.businessInfo.emailAddress}}</span>
-          </div>
-          <div class="details d-flex align-items-center">
-            <font-awesome-icon icon="fa-solid fa-location-dot" class="circle text-primary"/>
-            <span class="text-primary ps-3">{{store.businessInfo.address}}</span>
-          </div>
+          <DetailsComponentVue :isCircle="true" fontSize="" textColor="primary"/>
           
           <ButtonComponentVue text="VIEW MAP" :isOutline="true" class="white-hover"/>
         </div>
@@ -69,18 +60,7 @@ export default {
   padding: 3.5rem 0;
 }
 
-.fa-phone, .fa-envelope, .fa-location-dot {
-  background-color: $secondary-color;
-}
 
-.details {
-  margin: 1rem 0;
-}
-
-.circle {
-  width: 16px;
-  padding: .7rem; 
-}
 
 .white-hover{
   color: $primary;
