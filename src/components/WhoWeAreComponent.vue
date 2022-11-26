@@ -57,7 +57,7 @@ export default {
 @use '../styles/partials/variables' as *;
 
   .container {
-    height: 100vh;
+    // min-height: 100vh;
     padding: 7rem 0;
   }
 

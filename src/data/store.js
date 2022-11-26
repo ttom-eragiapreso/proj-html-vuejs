@@ -8,6 +8,7 @@ export const store = reactive({
     openingHours: '9:00 - 18:00',
     phoneNumber: '+1(305) 1234-5678',
     emailAddress: 'hello@example.com',
+    address: 'Main Avenue, 987',
     socialLinks: [
       {
         name: 'Facebook',
@@ -137,6 +138,21 @@ export const store = reactive({
         title: 'Countries Served',
         value: '94'
       },
+    ],
+    feedbackCards: [
+      {
+        logo: 'src/assets/img/logo-1.png',
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nihil dolore placeat repellendus quae deleniti delectus. Ipsa nesciunt tempora quia quidem ducimus, molestias culpa cum.",
+      },
+      {
+        logo: 'src/assets/img/logo-2.png',
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nihil dolore placeat repellendus quae deleniti delectus. Ipsa nesciunt tempora quia quidem ducimus, molestias culpa cum.",
+      },
+      {
+        logo: 'src/assets/img/logo-3.png',
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nihil dolore placeat repellendus quae deleniti delectus. Ipsa nesciunt tempora quia quidem ducimus, molestias culpa cum.",
+      },
+
     ]
   }
 })

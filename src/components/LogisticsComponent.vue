@@ -44,7 +44,7 @@ export default {
 @use '../styles/partials/variables' as *;
 
 .em-container{
-  height: 65vh;
+  // height: 65vh;
   background-color: $bg-light;
   padding: 4.5rem 0;
   position: relative;

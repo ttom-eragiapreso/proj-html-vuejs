@@ -55,7 +55,7 @@ export default {
 @use '../styles/partials/variables' as *;
 
 .em-container {
-  height: 100vh;
+  // height: 100vh;
   background-color: $bg-dark;
   padding: 2rem 0;
 }

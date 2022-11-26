@@ -20,6 +20,7 @@ export default {
       <div class="img-container p-2 me-3">
         <img :src="type.img" :alt="type.type">
       </div>
+
       <div class="text-wrapper">
         <h3 class="m-0">{{type.type}}</h3>
         <span class="text-secondary">{{type.description}}</span>
@@ -31,7 +32,9 @@ export default {
 
   <div class="certifications-container p-3">
     <h3>Certifications</h3>
-    <div class="cert-img-container d-inline-block me-3" v-for="(cert, index) in store.businessInfo.certifications" :key="index">
+    <div class="cert-img-container d-inline-block me-3" 
+    v-for="(cert, index) in store.businessInfo.certifications" 
+    :key="index">
       <img :src="cert.img" :alt="cert.name">
     </div>
   </div>
