@@ -25,9 +25,13 @@ export default {
     <div class="container">
       <div class="row row-cols-4">
         <div class="col">
-          <span class="nex">NEW</span><span class="gen">GEN</span>
-          <p class="secondary-color mb-3">A Functional HTML Template for Corporate & Business.</p>
-          <details-component-vue :isCircle="false" textColor="#bcbdbd"/>
+          <span class="nex">NEX</span><span class="gen">GEN</span>
+          <p class="text-secondary mb-3">A Functional HTML Template for Corporate & Business.</p>
+          <details-component-vue :isCircle="false" textColor="#bcbdbd" fontSize="1rem"/>
+          <ButtonComponentVue :isOutline="true" :text="'GET IN TOUCH'"/>
+        </div>
+        <div class="col" v-for="(card, index) in store.businessInfo.footerCards" :key="index">
+          <FooterCardVue :card="card"/>
         </div>
       </div>
     </div>
@@ -42,6 +46,11 @@ export default {
 
 .em-container{
   background-color: $bg-dark;
+  padding: 4rem 0;
+}
+
+.nex {
+  @include pillLogo($primary)
 }
 
 </style>

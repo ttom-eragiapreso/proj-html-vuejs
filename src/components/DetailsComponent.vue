@@ -26,7 +26,7 @@ export default {
   <span 
   :class="[
   textColor === 'primary'? 'text-primary' : 'custom-color',
-  fontSize? 'fs-5' : 'custom-font-size', 'ps-3']">{{store.businessInfo.phoneNumber}}</span>
+  !fontSize? '' : 'custom-font-size', 'ps-3']">{{store.businessInfo.phoneNumber}}</span>
 </div>
 
 <div class="details d-flex align-items-center">
@@ -37,7 +37,7 @@ export default {
   <span 
   :class="[
   textColor === 'primary'? 'text-primary' : 'custom-color',
-  fontSize? 'fs-5' : 'custom-font-size', 'ps-3']">{{store.businessInfo.emailAddress}}</span>
+  !fontSize? '' : 'custom-font-size', 'ps-3']">{{store.businessInfo.emailAddress}}</span>
 </div>
 
 <div class="details d-flex align-items-center">
@@ -48,7 +48,7 @@ export default {
   <span 
   :class="[
   textColor === 'primary'? 'text-primary' : 'custom-color',
-  fontSize? 'fs-5' : 'custom-font-size', 'ps-3']">{{store.businessInfo.address}}</span>
+  !fontSize? '' : 'custom-font-size', 'ps-3']">{{store.businessInfo.address}}</span>
 </div>
           
   

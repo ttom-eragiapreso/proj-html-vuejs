@@ -17,11 +17,11 @@ export default {
 
   <div class="em-card p-5">
 
-    <h2>{{card.title}}</h2>
-    <ul>
+    <h2 class="mb-3">{{card.title}}</h2>
+    <ul class="p-0">
       <li v-for="(link, index) in card.links" :key="index">
-        <font-awesome-icon icon="fa-solid fa-chevron-right"/>
-        <a :href="link.href">
+        <font-awesome-icon icon="fa-solid fa-chevron-right" class="me-3 text-secondary"/>
+        <a :href="link.href" @click.prevent="">
           <span class="text-secondary">{{link.text}}</span>
         </a>
       </li>
