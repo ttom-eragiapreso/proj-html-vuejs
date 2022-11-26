@@ -18,7 +18,7 @@ export default {
 
 <template>
   
-  <div class="em-container">
+  <div class="em-container d-flex align-items-center">
 
     <div class="container">
       <h5 class="text-primary fw-bold">ROAD TRANSPORT</h5>
@@ -35,7 +35,7 @@ export default {
 
 
       <div class="row row-cols-lg-3">
-        <div class="col" 
+        <div class="col px-3" 
         v-for="(service, index) in store.businessInfo.servicesCards" 
         :key="index">
           <ServicesCardVue 

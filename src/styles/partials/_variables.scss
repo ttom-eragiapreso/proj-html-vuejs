@@ -13,6 +13,7 @@ $secondary: $silver-sand;
 
 $shark: #191c1e;
 $bg-dark: $shark;
+$bg-less-dark: tint-color($bg-dark, 7%);
 // Sizes
 
 $header-height: 72px;
