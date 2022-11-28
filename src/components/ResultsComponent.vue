@@ -16,7 +16,7 @@ export default {
 
 <template>
   
-  <div class="em-container d-flex align-items-center py-5">
+  <div class="em-container d-flex align-items-center">
 
     <div class="container text-center">
       <h4 class="fw-bold text-primary">WHAT ARE WE DOING</h4>
@@ -24,7 +24,6 @@ export default {
       <div class="row">
         <div class="col" v-for="(card,index) in store.businessInfo.resultsCards" :key="index">
           <results-card :card="card" />
-
         </div>
       </div>
     </div>
@@ -38,10 +37,10 @@ export default {
 @use '../styles/partials/variables' as *;
 
 .em-container{
-  // height: 65vh;
   background-image: url(../assets/img/bg-10.jpg);
   background-size: cover;
   background-position: 0px -200px;
+  padding: 4rem 0;
 }
 
 h2 {

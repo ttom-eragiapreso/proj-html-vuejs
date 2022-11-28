@@ -23,21 +23,23 @@ export default {
     </div>
 
     <div class="em-navbar d-flex align-items-center ms-auto">
-        <!-- Stampo i link dinamicamente in base a quanti ce ne sono nello store -->
-        <div class="em-navbar-link"
-        v-for="(link, index) in store.businessInfo.navbarLinks"
-        :key="index"
-        >
-          <h3 class="pe-3 my-auto">
-            <a href="#">{{link.title}}</a> 
-          </h3>
-        </div>
 
-        <div class="get-in-touch d-flex align-items-center">
-          <font-awesome-icon icon="fa-regular fa-user" class="fs-4 px-3" />
-          <button-component-vue text="GET IN TOUCH" :isOutline="false" />
-        </div>
+      <!-- Stampo i link dinamicamente in base a quanti ce ne sono nello store -->
+      <div class="em-navbar-link"
+      v-for="(link, index) in store.businessInfo.navbarLinks"
+      :key="index"
+      >
+        <h3 class="pe-3 my-auto">
+          <a href="#">{{link.title}}</a> 
+        </h3>
       </div>
+
+      <div class="get-in-touch d-flex align-items-center">
+        <font-awesome-icon icon="fa-regular fa-user" class="fs-4 px-3" />
+        <button-component-vue text="GET IN TOUCH" :isOutline="false" />
+      </div>
+
+    </div>
 
   </div>
 
@@ -58,7 +60,7 @@ export default {
   font-size: 2rem;
   color: white;
   .nex{
-    @include pillLogo($secondary-color);
+    @include pillLogo($primary);
   }
 }
 

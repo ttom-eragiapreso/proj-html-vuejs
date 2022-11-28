@@ -8,16 +8,16 @@ export default {
   <div class="em-container d-flex align-items-center">
 
 
-      <div class="mx-auto">
-         <span class="text-white">Enjoy the low price. We are tracking any intention of piracy.</span>
-         <span class="text-white">&copy; 2020 NEXGEN is Proudly Powered by <span class="text-primary">Codings</span></span>
-      </div>
+    <div class="container d-flex justify-content-between px-5">
+        <span class="text-secondary">Enjoy the low price. We are tracking any intention of piracy.</span>
+        <span class="text-secondary">&copy; 2020 NEXGEN is Proudly Powered by <span class="text-primary">Codings</span></span>
+    </div>
+      
      
 
       <div class="">
         <span class="pe-3">
-          <a href="#"> <font-awesome-icon icon="fa-solid fa-arrow-up" class="circle"/></a>
-         
+          <a href="#"><font-awesome-icon icon="fa-solid fa-arrow-up" class="circle"/></a>
         </span>
       </div>
 
@@ -43,6 +43,7 @@ export default {
   background-color: lighten($secondary-color, .5%);
   font-size: 1.4rem;
   width: 1.7rem;
+  opacity: .2;
 }
 
 </style>

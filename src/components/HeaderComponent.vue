@@ -46,7 +46,7 @@ export default {
 @use '../styles/partials/variables' as *;
 
 .em-container {
-  background-color: $muted-color;
+  background-color: #21333f;
   color: white;
 }
 

@@ -6,7 +6,7 @@ $blue-chill: #058284;
 $secondary-color: tint-color($blue-chill, 80%);
 $muted-color: shade-color($blue-chill, 65%);
 $bg-light: tint-color($blue-chill, 95%);
-
+// Con questo primary posso andarlo ad usare anche nella classi di BS 
 $primary: $blue-chill;
 
 $silver-sand: #bcbdbd;
@@ -15,6 +15,8 @@ $secondary: $silver-sand;
 $shark: #191c1e;
 $bg-dark: $shark;
 $bg-less-dark: tint-color($bg-dark, 7%);
+
+
 // Sizes
 
 $header-height: 72px;

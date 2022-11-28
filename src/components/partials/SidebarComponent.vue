@@ -26,7 +26,6 @@ export default {
         <span class="text-secondary">{{type.description}}</span>
       </div>
 
-      
     </div>
   </div>
 

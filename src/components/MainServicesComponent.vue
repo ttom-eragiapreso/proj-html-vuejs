@@ -46,6 +46,7 @@ export default {
       </div>
 
     </div>
+    
   </div>
   
 </template>
@@ -55,9 +56,8 @@ export default {
 @use '../styles/partials/variables' as *;
 
 .em-container {
-  // height: 100vh;
   background-color: $bg-dark;
-  padding: 2rem 0;
+  padding: 7.5rem 0;
 }
 
 </style>

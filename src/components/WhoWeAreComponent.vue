@@ -17,6 +17,7 @@ export default {
       <div class="col col-9">
 
         <div class="who-we-are">
+
           <h5 class="text-primary">WHO WE ARE</h5>
           
           <span class="accent-text fs-1">
@@ -40,6 +41,7 @@ export default {
           </ul>
 
         </div>
+
       </div>
       
       <div class="col col-3">
@@ -48,7 +50,6 @@ export default {
 
     </div>
     
-
   </div>
 </template>
 
@@ -57,7 +58,6 @@ export default {
 @use '../styles/partials/variables' as *;
 
   .container {
-    // min-height: 100vh;
     padding: 7rem 0;
   }
 
@@ -67,7 +67,6 @@ export default {
       margin-top: 1rem;
     }
     &:nth-of-type(3){
-      // box-shadow: -5px 0px 0 0px $secondary-color;
       border-left: 5px solid $secondary-color;
       padding: 1rem 1.5rem;
     }

@@ -25,15 +25,12 @@ export default {
   </div>
 
   <div class="container">
-     <div class="row row-cols-5">
-
-    <div class="col" v-for="(card, index) in store.businessInfo.logisticsCards" :key="index">
-      <logistics-card :card="card"/>
+    <div class="row row-cols-5">
+      <div class="col" v-for="(card, index) in store.businessInfo.logisticsCards" :key="index">
+        <logistics-card :card="card"/>
+      </div>
     </div>
-
   </div>
-  </div>
- 
 
 </div>
 
@@ -44,7 +41,6 @@ export default {
 @use '../styles/partials/variables' as *;
 
 .em-container{
-  // height: 65vh;
   background-color: $bg-light;
   padding: 4.5rem 0;
   position: relative;
